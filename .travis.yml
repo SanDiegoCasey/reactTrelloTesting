@@ -7,6 +7,8 @@ env:
 - CI=true
 deploy:
   provider: heroku
-  api_key: !binary |-
-    GgMb
-  app: quit
+  api_key:
+    secure: ITmt4UyINUMPD5ERjnZjSXzGz9t3PyIzz/lKhOXbEUTsCXPl92owgqzakCfraiR2EWgxZ11ggHv5Vm22+Z0br5Ny98nqt6H4Esq3OWzD2BfX6bMCXKbTFOa4XvLGwNY7OwXWzuVI8oew0UeqBe89qEO9j+vmpwTx2+eLmo5uq2vKrtrfma3QnixsnxS34GRxOXvGbLYNCokQ6T1aVzCHndJQhYUy+uDbQNYI/Ib2PLKz4D3PR4VL76z4JwIYYuo+VxgZ2A1o+NwfVrx3vzNT81xILysgcl24nii/5/TBAF8Vt78brvUdSHqiFgwCTuUtIs2S1FJlxte/l2jCL+vURR44sqTnnmrTWVwP9UjE7f2KIetnUMehuit9qInH4HXr4mMn4+pbBNzsloF4ArKnmOfI/Q3kHVdq0RoBCSmtlWDvGL7HVlXIcC8gm7E2k8y+d+1wRb8TimXWYoB4Pe7uRI0b+fMf51nSE/OAgRSz4JcTHosoeEtHFWK/BlS445mvMlnzTPSeUifm16TaWOOva7z3dWn2ThIgLURWtLRYagxNEELZgdlx0x9E3HsPl2h58xnPJ2GZPg0Eg1/utRkyd5BAygIBXMQJySuil24mRr67InFPlL6wiXEAEYYjRaA87uUgawLh5PEeXw9GNjB4et5iCnzkrStXlJHhT1uZK60=
+  app: gentle-savannah-96705
+  on:
+    repo: SanDiegoCasey/reactTrelloTesting
